@@ -1,0 +1,45 @@
+{
+  "name": "dsh-tag-index",
+  "version": "0.1.0",
+  "description": "Adds the DSH Plugin Index, every installable DeepSeek Harness plugin tagged dsh-plugin on GitHub or npm, to Plugins → Discover.",
+  "type": "module",
+  "main": "index.js",
+  "icon": "./icon.png",
+  "exports": {
+    ".": "./index.js",
+    "./icon": "./icon.png",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "icon.png",
+    "locale/*.json",
+    "README*.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin-index",
+    "plugin-market"
+  ],
+  "author": "whoishuhu",
+  "license": "MIT",
+  "homepage": "https://whoishuhu.github.io/dsh-plugin-index/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whoishuhu/dsh-tag-index.git"
+  },
+  "bugs": "https://github.com/whoishuhu/dsh-plugin-index/issues",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node test/index.test.js"
+  }
+}

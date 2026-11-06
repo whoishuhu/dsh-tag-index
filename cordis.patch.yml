@@ -1,0 +1,5 @@
+# Switches on Custom plugin index once and appends the DSH Plugin Index to Plugins → Discover.
+# Existing index sources are kept as they are. Removing the source or switching the bundle off later is respected.
+- insert:
+    - id: tag-index
+      name: dsh-tag-index

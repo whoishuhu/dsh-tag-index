@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSH 插件索引（dsh-plugin 标签）",
+    "description": "把 GitHub 和 npm 上所有打了 dsh-plugin 标签、可以安装的插件，作为索引源加入「插件 → 发现」，每天更新。"
+  }
+}

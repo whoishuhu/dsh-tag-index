@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSH Plugin Index (dsh-plugin tag)",
+    "description": "Adds an index of every installable plugin tagged dsh-plugin on GitHub or npm to Plugins → Discover, rebuilt daily."
+  }
+}
